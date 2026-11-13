@@ -4,11 +4,11 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=FF6B00&center=true&vCenter=true&width=850&lines=Building+Deterministic+Systems+Around+Stochastic+AI+Models;Multi-Agent+Orchestration+%7C+Full-Stack+Microservices+%7C+Cloud+Architecture;State-Level+AI+Hackathon+Winner+%7C+Published+Author+%7C+SIH+Team+Lead;Turning+Complex+Data+Schemas+into+Autonomous+Decision+Engines" alt="Engineering Focus" />
 
   <p align="center">
-    <a href="https://www.linkedin.com/in/harsh-gupta" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="https://www.linkedin.com/in/harsh-gupta" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=black" alt="LinkedIn" /></a>
     <a href="https://leetcode.com/u/harshhgupta13/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-harshhgupta13-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
     <a href="mailto:harshhgupta1324@gmail.com"><img src="https://img.shields.io/badge/Email-Let's_Talk-FF6B00?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
     <p align="center">
-  <img src="https://img.shields.io/badge/SYSTEM_STATUS-ONLINE_%2F_%2F_READY_FOR_SDE_ROLES-0D1117?style=for-the-badge&color=161B22&labelColor=FF6B00&logo=terminal&logoColor=white" />
+  <a href="mailto:harshhgupta1324@gmail.com"><img src="https://img.shields.io/badge/SYSTEM_STATUS-ONLINE_%2F_%2F_READY_FOR_SDE_ROLES-0D1117?style=for-the-badge&color=161B22&labelColor=FF6B00&logo=terminal&logoColor=white" /></a>
 </p>
   </p>
 </div>
