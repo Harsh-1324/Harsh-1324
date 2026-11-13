@@ -64,11 +64,13 @@
     <rect x="0" y="0" width="152" height="28" rx="6" fill="#161B22" stroke="#FF6B00" stroke-width="1" />
     <text x="76" y="18" text-anchor="middle" fill="#FF8C00">LANGGRAPH + MCP</text>
 
+    <rect x="341" y="0" width="150" height="28" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <text x="416" y="18" text-anchor="middle" fill="#C9D1D9">JAVA + AWS CLOUD</text>
+    
     <rect x="164" y="0" width="165" height="28" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1" />
     <text x="246" y="18" text-anchor="middle" fill="#C9D1D9">FASTAPI + POSTGRES</text>
 
-    <rect x="341" y="0" width="150" height="28" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1" />
-    <text x="416" y="18" text-anchor="middle" fill="#C9D1D9">JAVA + AWS CLOUD</text>
+    
   </g>
 
   <!-- Right Column: 4 Architectural Pillar Cards (Zero Numbers) -->
