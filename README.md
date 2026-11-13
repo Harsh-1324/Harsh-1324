@@ -1,6 +1,6 @@
 <!-- Header Grid Banner -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Harsh-1324/Harsh-1324/main/assets/grid-banner.svg" alt="HARSH GUPTA // System Architecture Banner" width="100%" />
+  <img src="assets/grid-banner.svg" alt="HARSH GUPTA // System Architecture Banner" width="100%" />
 </p>
 
 <!-- Dynamic Typing Telemetry Header (Cyber Orange #FF6B00) -->
@@ -87,4 +87,15 @@ I am an **Agentic AI Architect and Full-Stack Backend Engineer** pursuing my B.E
 ```text
 [USER NL QUERY] ──> [SURYA-OCR / RAG CONTEXT] ──> [LANGGRAPH PLANNER] ──> [SQLGLOT AST GUARD]
                                                                                   │
-[PLOTLY DASHBOARD] <── [DUCKDB STAGING ENGINE] <── [HITL AUDIT GATE] <────────────┘                                    
+[PLOTLY DASHBOARD] <── [DUCKDB STAGING ENGINE] <── [HITL AUDIT GATE] <────────────┘
+
+```text
+
+Benchmark Telemetry: Achieved 87.08% SQL Execution Accuracy across 240 complex multi-join evaluation queries and 99.7% AST Safety Blocking against destructive/injection payloads.
+
+Recognition: 1st Runner-Up (2nd Prize) at MET BKC Institute-Level Project Poster Presentation 2K26 & SIH 2026 Flagship Submission.
+
+Key Stack: Python | LangGraph | FastAPI | MCP | SQLGlot | PostgreSQL | PGVector | DuckDB | React
+
+📞 2. Real-Time Indic Speech-to-Speech Telephony Translator
+Bidirectional voice streaming engine enabling real-time cross-lingual phone conversations across Indic languages over standard telephony networks.
