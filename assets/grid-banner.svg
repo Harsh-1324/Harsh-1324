@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090A0F" />
+      <stop offset="50%" stop-color="#11131C" />
+      <stop offset="100%" stop-color="#090A0F" />
+    </linearGradient>
+
+    <!-- Orange Glow Gradient -->
+    <radialGradient id="orangeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6B00" stop-opacity="0.22" />
+      <stop offset="60%" stop-color="#FF9E00" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#090A0F" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Accent Line Gradient -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B00" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FF6B00" stop-opacity="1" />
+      <stop offset="100%" stop-color="#FFB703" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Subtle Technical Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.04" />
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Base Layer -->
+  <rect width="1200" height="320" rx="14" fill="url(#bgGrad)" stroke="#262936" stroke-width="2" />
+  <rect width="1200" height="320" rx="14" fill="url(#grid)" />
+  <ellipse cx="600" cy="160" rx="480" ry="180" fill="url(#orangeGlow)" />
+
+  <!-- HUD Corner Brackets -->
+  <g stroke="#FF6B00" stroke-width="2" fill="none" stroke-opacity="0.6">
+    <path d="M 25 50 L 25 25 L 50 25" />
+    <path d="M 1175 50 L 1175 25 L 1150 25" />
+    <path d="M 25 270 L 25 295 L 50 295" />
+    <path d="M 1175 270 L 1175 295 L 1150 295" />
+  </g>
+
+  <!-- Top Telemetry Metadata -->
+  <g font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#8B949E" letter-spacing="1.5">
+    <text x="45" y="48">[ NODE_ID: HARSH-1324 // STATUS: ONLINE ]</text>
+    <text x="45" y="66" fill="#FF8C00">[ LOC: NASHIK, IN // LATENCY: 12ms ]</text>
+    <text x="1155" y="48" text-anchor="end">[ ARCH: AGENTIC_AI // CLOUD_MICROSERVICES ]</text>
+    <text x="1155" y="66" text-anchor="end" fill="#FF8C00">[ BUILD: PRODUCTION_V4.2 ]</text>
+  </g>
+
+  <!-- Animated Circuit / Telemetry Paths -->
+  <g fill="none" stroke-width="1.8">
+    <!-- Left Circuit -->
+    <path d="M 180 250 L 260 190 L 390 190" stroke="#FF6B00" stroke-opacity="0.45" />
+    <circle cx="180" cy="250" r="4" fill="#FF6B00" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="260" cy="190" r="3.5" fill="#FFB703" />
+
+    <!-- Right Circuit -->
+    <path d="M 1020 250 L 940 190 L 810 190" stroke="#38BDF8" stroke-opacity="0.45" />
+    <circle cx="1020" cy="250" r="4" fill="#38BDF8" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="940" cy="190" r="3.5" fill="#38BDF8" />
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="152" text-anchor="middle" font-family="&#39;Segoe UI&#39;, Roboto, Helvetica, sans-serif" font-weight="800" font-size="46" fill="#FFFFFF" letter-spacing="8">
+    HARSH GUPTA
+  </text>
+
+  <!-- Divider Glow Line -->
+  <rect x="350" y="172" width="500" height="2" fill="url(#lineGrad)" />
+
+  <!-- Subtitle -->
+  <text x="600" y="202" text-anchor="middle" font-family="&#39;Courier New&#39;, Courier, monospace" font-weight="700" font-size="14" fill="#FF8C00" letter-spacing="4.5">
+    AGENTIC AI ARCHITECT // FULL-STACK & BACKEND ENGINEER
+  </text>
+
+  <!-- Bottom Tech Pill Tags -->
+  <g font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#C9D1D9" letter-spacing="2">
+    <text x="600" y="255" text-anchor="middle" fill="#8B949E">
+      [ MULTI-AGENT SYSTEMS ]  •  [ DISTRIBUTED BACKEND ]  •  [ TELEPHONY AI ]  •  [ CLOUD INFRA ]
+    </text>
+  </g>
+
+  <!-- Pulsing Center Beacon -->
+  <circle cx="600" cy="282" r="3" fill="#FF6B00" filter="url(#glow)">
+    <animate attributeName="r" values="2;5;2" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+</svg>
