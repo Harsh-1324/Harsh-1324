@@ -1,75 +1,116 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090A0F" />
-      <stop offset="50%" stop-color="#11131C" />
-      <stop offset="100%" stop-color="#090A0F" />
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07090E" />
+      <stop offset="50%" stop-color="#0D1117" />
+      <stop offset="100%" stop-color="#07090E" />
     </linearGradient>
-    <radialGradient id="orangeGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FF6B00" stop-opacity="0.22" />
-      <stop offset="60%" stop-color="#FF9E00" stop-opacity="0.06" />
-      <stop offset="100%" stop-color="#090A0F" stop-opacity="0" />
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B00" />
+      <stop offset="60%" stop-color="#FF9E00" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161B22" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0.95" />
+    </linearGradient>
+    <radialGradient id="glow" cx="75%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6B00" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#07090E" stop-opacity="0" />
     </radialGradient>
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF6B00" stop-opacity="0" />
-      <stop offset="50%" stop-color="#FF6B00" stop-opacity="1" />
-      <stop offset="100%" stop-color="#FFB703" stop-opacity="0" />
-    </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.04" />
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#30363D" fill-opacity="0.55" />
     </pattern>
   </defs>
 
-  <rect width="1200" height="320" rx="14" fill="url(#bgGrad)" stroke="#262936" stroke-width="2" />
-  <rect width="1200" height="320" rx="14" fill="url(#grid)" />
-  <ellipse cx="600" cy="160" rx="480" ry="180" fill="url(#orangeGlow)" />
+  <!-- Outer Frame -->
+  <rect width="1200" height="340" rx="16" fill="url(#bg)" stroke="#21262D" stroke-width="2" />
+  <rect width="1200" height="340" rx="16" fill="url(#dots)" />
+  <rect width="1200" height="340" rx="16" fill="url(#glow)" />
 
-  <g stroke="#FF6B00" stroke-width="2" fill="none" stroke-opacity="0.6">
-    <path d="M 25 50 L 25 25 L 50 25" />
-    <path d="M 1175 50 L 1175 25 L 1150 25" />
-    <path d="M 25 270 L 25 295 L 50 295" />
-    <path d="M 1175 270 L 1175 295 L 1150 295" />
-  </g>
+  <!-- Top Window Bar -->
+  <rect x="0" y="0" width="1200" height="38" rx="16" fill="#0D1117" />
+  <line x1="0" y1="38" x2="1200" y2="38" stroke="#21262D" stroke-width="1.5" />
+  <circle cx="24" cy="19" r="5" fill="#FF6B00">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="42" cy="19" r="5" fill="#FF9E00" opacity="0.6" />
+  <circle cx="60" cy="19" r="5" fill="#38BDF8" opacity="0.6" />
+  <text x="82" y="23" font-family="monospace" font-size="11" font-weight="700" fill="#FF8C00" letter-spacing="1.5">
+    ARCHITECTURAL PORTFOLIO // HARSH-1324
+  </text>
+  <text x="1170" y="23" text-anchor="end" font-family="monospace" font-size="11" fill="#8B949E" letter-spacing="1">
+    AI-NATIVE SDE  |  DISTRIBUTED BACKENDS
+  </text>
 
-  <g font-family="monospace" font-size="11" fill="#8B949E" letter-spacing="1.5">
-    <text x="45" y="48">[ NODE_ID: HARSH-1324 // STATUS: ONLINE ]</text>
-    <text x="45" y="66" fill="#FF8C00">[ LOC: NASHIK, IN // LATENCY: 12ms ]</text>
-    <text x="1155" y="48" text-anchor="end">[ ARCH: AGENTIC_AI // CLOUD_MICROSERVICES ]</text>
-    <text x="1155" y="66" text-anchor="end" fill="#FF8C00">[ BUILD: PRODUCTION_V4.2 ]</text>
-  </g>
-
-  <g fill="none" stroke-width="1.8">
-    <path d="M 180 250 L 260 190 L 390 190" stroke="#FF6B00" stroke-opacity="0.45" />
-    <circle cx="180" cy="250" r="4" fill="#FF6B00">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="260" cy="190" r="3.5" fill="#FFB703" />
-
-    <path d="M 1020 250 L 940 190 L 810 190" stroke="#38BDF8" stroke-opacity="0.45" />
-    <circle cx="1020" cy="250" r="4" fill="#38BDF8">
-      <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="940" cy="190" r="3.5" fill="#38BDF8" />
-  </g>
-
-  <text x="600" y="152" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="46" fill="#FFFFFF" letter-spacing="8">
+  <!-- Left Column: Identity & Vision -->
+  <text x="48" y="88" font-family="monospace" font-size="12" font-weight="700" fill="#FF6B00" letter-spacing="3">
+    AGENTIC AI ARCHITECT + FULL-STACK ENGINEER
+  </text>
+  <text x="48" y="142" font-family="sans-serif" font-size="48" font-weight="800" fill="#FFFFFF" letter-spacing="2">
     HARSH GUPTA
   </text>
+  <rect x="48" y="158" width="460" height="3" fill="url(#accentGrad)" rx="1.5" />
 
-  <rect x="350" y="172" width="500" height="2" fill="url(#lineGrad)" />
-
-  <text x="600" y="202" text-anchor="middle" font-family="monospace" font-weight="700" font-size="14" fill="#FF8C00" letter-spacing="4">
-    AGENTIC AI ARCHITECT // FULL-STACK + BACKEND ENGINEER
+  <text x="48" y="190" font-family="sans-serif" font-size="14" fill="#C9D1D9">
+     turning stochastic AI models into deterministic, fault-tolerant
+  </text>
+  <text x="48" y="212" font-family="sans-serif" font-size="14" fill="#C9D1D9">
+    software systems that enterprise teams can actually trust in production.
   </text>
 
-  <g font-family="monospace" font-size="11" fill="#8B949E" letter-spacing="2">
-    <text x="600" y="255" text-anchor="middle">
-      [ MULTI-AGENT SYSTEMS ]  *  [ DISTRIBUTED BACKEND ]  *  [ GEN AI ]  *  [ CLOUD INFRA ]
-    </text>
+  <!-- Left Column Tech Pills -->
+  <g transform="translate(48, 242)" font-family="monospace" font-size="11" font-weight="700">
+    <rect x="0" y="0" width="152" height="28" rx="6" fill="#161B22" stroke="#FF6B00" stroke-width="1" />
+    <text x="76" y="18" text-anchor="middle" fill="#FF8C00">LANGGRAPH + MCP</text>
+
+    <rect x="164" y="0" width="165" height="28" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <text x="246" y="18" text-anchor="middle" fill="#C9D1D9">FASTAPI + POSTGRES</text>
+
+    <rect x="341" y="0" width="150" height="28" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <text x="416" y="18" text-anchor="middle" fill="#C9D1D9">JAVA + AWS CLOUD</text>
   </g>
 
-  <circle cx="600" cy="282" r="3" fill="#FF6B00">
-    <animate attributeName="r" values="2;5;2" dur="2s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
-  </circle>
+  <!-- Right Column: 4 Architectural Pillar Cards (Zero Numbers) -->
+  <!-- Pillar 1 -->
+  <g transform="translate(650, 62)">
+    <rect width="245" height="102" rx="10" fill="url(#cardGrad)" stroke="#30363D" stroke-width="1.5" />
+    <line x1="0" y1="0" x2="80" y2="0" stroke="#FF6B00" stroke-width="3" />
+    <text x="18" y="28" font-family="monospace" font-size="10" fill="#FF8C00" letter-spacing="1">PILLAR 01 // ORCHESTRATION</text>
+    <text x="18" y="58" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">Agentic Workflows</text>
+    <text x="18" y="82" font-family="monospace" font-size="11" fill="#8B949E">Planner-Critic Reflection</text>
+  </g>
+
+  <!-- Pillar 2 -->
+  <g transform="translate(910, 62)">
+    <rect width="245" height="102" rx="10" fill="url(#cardGrad)" stroke="#30363D" stroke-width="1.5" />
+    <line x1="0" y1="0" x2="80" y2="0" stroke="#FF9E00" stroke-width="3" />
+    <text x="18" y="28" font-family="monospace" font-size="10" fill="#FF9E00" letter-spacing="1">PILLAR 02 // SECURITY</text>
+    <text x="18" y="58" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">AST Guardrails</text>
+    <text x="18" y="82" font-family="monospace" font-size="11" fill="#8B949E">Zero-Trust SQLGlot Gates</text>
+  </g>
+
+  <!-- Pillar 3 -->
+  <g transform="translate(650, 180)">
+    <rect width="245" height="102" rx="10" fill="url(#cardGrad)" stroke="#30363D" stroke-width="1.5" />
+    <line x1="0" y1="0" x2="80" y2="0" stroke="#38BDF8" stroke-width="3" />
+    <text x="18" y="28" font-family="monospace" font-size="10" fill="#38BDF8" letter-spacing="1">PILLAR 03 // DATA TOPOLOGY</text>
+    <text x="18" y="58" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">Hybrid OLAP + RAG</text>
+    <text x="18" y="82" font-family="monospace" font-size="11" fill="#8B949E">DuckDB + PGVector Engine</text>
+  </g>
+
+  <!-- Pillar 4 -->
+  <g transform="translate(910, 180)">
+    <rect width="245" height="102" rx="10" fill="url(#cardGrad)" stroke="#30363D" stroke-width="1.5" />
+    <line x1="0" y1="0" x2="80" y2="0" stroke="#FF6B00" stroke-width="3" />
+    <text x="18" y="28" font-family="monospace" font-size="10" fill="#FF8C00" letter-spacing="1">PILLAR 04 // INTELLIGENCE</text>
+    <text x="18" y="58" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">Ensemble ML</text>
+    <text x="18" y="82" font-family="monospace" font-size="11" fill="#8B949E">Soft-Voting Threat Engines</text>
+  </g>
+
+  <!-- Bottom Footer Bar -->
+  <line x1="48" y1="305" x2="1155" y2="305" stroke="#21262D" stroke-width="1" />
+  <text x="48" y="324" font-family="monospace" font-size="10" fill="#8B949E" letter-spacing="1.5">
+    [ STATE AI HACKATHON WINNER ]   //   [ SIH TEAM LEADER ]   //   [ PUBLISHED AI RESEARCHER ]   //   [ AWS CLOUD CERTIFIED ]
+  </text>
 </svg>
