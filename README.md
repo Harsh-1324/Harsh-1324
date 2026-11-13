@@ -1,6 +1,6 @@
 <!-- Header Grid Banner -->
 <p align="center">
-  <img src="assets/grid-banner.svg" alt="HARSH GUPTA // System Architecture Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/Harsh-1324/Harsh-1324/main/assets/grid-banner.svg" alt="HARSH GUPTA // System Architecture Banner" width="100%" />
 </p>
 
 <!-- Dynamic Typing Telemetry Header (Cyber Orange #FF6B00) -->
@@ -88,3 +88,30 @@ I am an **Agentic AI Architect and Full-Stack Backend Engineer** pursuing my B.E
 [USER NL QUERY] ──> [SURYA-OCR / RAG CONTEXT] ──> [LANGGRAPH PLANNER] ──> [SQLGLOT AST GUARD]
                                                                                   │
 [PLOTLY DASHBOARD] <── [DUCKDB STAGING ENGINE] <── [HITL AUDIT GATE] <────────────┘
+
+Benchmark Telemetry: Achieved 87.08% SQL Execution Accuracy across 240 complex multi-join evaluation queries and 99.7% AST Safety Blocking against destructive/injection payloads.
+
+Recognition: 1st Runner-Up (2nd Prize) at MET BKC Institute-Level Project Poster Presentation 2K26 & SIH 2026 Flagship Submission.
+
+Key Stack: Python | LangGraph | FastAPI | MCP | SQLGlot | PostgreSQL | PGVector | DuckDB | React
+
+📞 2. Real-Time Indic Speech-to-Speech Telephony Translator
+Bidirectional voice streaming engine enabling real-time cross-lingual phone conversations across Indic languages over standard telephony networks.
+
+[TELEPHONY SIP/PSTN] ──> [AUDIO STREAM CHUNKER] ──> [SARVAM ASR + TRANSLATE] ──> [LOW-LATENCY TTS] ──> [VIRTUAL NUMBER OUT]Performance Metric: Sub-second streaming chunk orchestration for natural conversational turn-taking.Key Stack: Python | Sarvam AI | FastAPI | WebSockets | Outbound Telephony APIs🛡️ 3. ApexPhishGuard — Ensemble ML Threat Detection EngineHigh-throughput cybersecurity platform detecting zero-day phishing URLs and malicious payloads using hybrid lexical and TF-IDF feature engineering.Plaintext[URL / PAYLOAD INPUT] ──> [TF-IDF + LEXICAL EXTRACTOR] ──> [SOFT-VOTING ENSEMBLE (LR + RF + LightGBM)] ──> [THREAT VERDICT]
+Benchmark Telemetry: 97.8% Classification Accuracy with minimal false-positive overhead.Recognition: 🏆 1st Place Winner at the upXgen State-Level Hackathon (AI Domain).Key Stack: Python | Scikit-learn | LightGBM | Random Forest | TF-IDF | Flask REST API🔬 SCIENTIFIC RESEARCH, HONORS & CERTIFICATIONSClassificationTitle / MilestoneTelemetry & Verification📄 RESEARCH PAPEROmniDash: Multi-Agent Framework for Autonomous Text-to-SQL Translation & Dynamic Dashboard Generation — Evaluated across 240 queries with AST deterministic guardrails.87.08% Exec Accuracy • 99.7% AST Safety🏆 HACKATHON WIN1st Place — upXgen State-Level Hackathon (AI Domain) for engineering ApexPhishGuard.State-Level Winner (Apr 2026)🥈 PROJECT AWARD1st Runner-Up — Project Poster Presentation 2K26 (MET BKC) for OmniDash.2nd Prize Overall (Oct 2026)🚀 NATIONAL FINALISTSemi-Finalist — Mastek Project Deep Blue Season 11 for FinTech Expense Management System.Semi-Finalist (Feb 2026)☁️ CERTIFICATIONAWS Academy Graduate — Cloud Foundations & Quantum Computing (IIT Roorkee & C-DAC Hyderabad).AWS Certified • 79.44% Merit (IIT-R)
+---
+
+### PART 3: Copy and paste this at the very bottom
+```markdown
+---
+
+## 🛠️ PRODUCTION TECH STACK & COMPETENCIES
+
+```text
+Agentic AI & ML        [██████████████████░░] 90% // LangGraph, LangChain, MCP, RAG, PyTorch, LightGBM
+Backend & Systems      [██████████████████░░] 90% // Python, FastAPI, Java, Flask, REST, WebSockets
+Databases & Storage    [████████████████░░░░] 85% // PostgreSQL, DuckDB, PGVector, ChromaDB, SQLGlot
+Cloud, DevOps & Web    [████████████████░░░░] 80% // AWS (EC2/Lambda/VPC), Docker, React.js, Git, Linux
+DSA & Problem Solving  [██████████████████░░] 90% // Java (DP, Graphs, Bit Manipulation, Trees)
+📈 CONTRIBUTION ACTIVITY // TELEMETRY DECK📊 Weekly Node Activity Wave🔥 Dynamic Analytics & Streak Telemetry🎮 Contribution Snake Emulator
