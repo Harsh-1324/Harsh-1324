@@ -7,7 +7,9 @@
     <a href="https://www.linkedin.com/in/harsh-gupta" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="https://leetcode.com/u/harshhgupta13/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-harshhgupta13-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
     <a href="mailto:harshhgupta1324@gmail.com"><img src="https://img.shields.io/badge/Email-Let's_Talk-FF6B00?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-    <img src="https://komarev.com/ghpvc/?username=Harsh-1324&label=PROFILE+VISITS&color=FF6B00&style=for-the-badge" alt="Profile Views" />
+    <p align="center">
+  <img src="https://img.shields.io/badge/SYSTEM_STATUS-ONLINE_%2F_%2F_READY_FOR_SDE_ROLES-0D1117?style=for-the-badge&color=161B22&labelColor=FF6B00&logo=terminal&logoColor=white" />
+</p>
   </p>
 </div>
 
